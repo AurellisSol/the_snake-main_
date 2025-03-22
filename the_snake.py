@@ -126,7 +126,7 @@ class Snake(GameObject):
         )
         self.positions.insert(0, new)
 
-        # Если длина змейки превышает ожидаемую, удаляем последний сегмент.
+        # Если длина змейки превышает ожидаемую, удаляем последний сегмент
         if len(self.positions) > self.length:
             self.positions.pop()
 
